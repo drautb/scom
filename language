@@ -1,0 +1,29 @@
+Language:
+
+Attacks:
+
+AAA -> A attack A
+AAD -> A attack D
+
+Moves:
+
+AML5D2 -> A move left 5 down 2
+DMR2U1 -> D move right 2 up 1
+
+Cover
+
+AC -> A take cover
+DC -> D take cover
+
+Damage Matrix.
+* 0 Def == FLANKED
+
+|   | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 |
+|===|====|====|====|====|====|====|====|====|====|====|
+| 0 | 95 | 80 | 70 | 60 | 50 | 40 | 30 | 20 | 10 |  0 |
+| 1 | 90 | 70 | 60 | 50 | 40 | 30 | 20 | 10 |  0 |  0 |
+| 2 | 85 | 60 | 50 | 40 | 30 | 20 | 10 |  0 |  0 |  0 |
+| 3 | 80 | 50 | 40 | 30 | 20 | 10 |  0 |  0 |  0 |  0 |
+|   |    |    |    |    |    |    |    |    |    |    |
+
+H = 100 - (Di * 5) - (De * 10)

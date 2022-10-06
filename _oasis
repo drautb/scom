@@ -1,0 +1,23 @@
+Name: SCOM
+Version: 0.1
+Synopsis: A simple game inspired by XCOM.
+Authors: Ben Draut <drautb@gmail.com>
+License: MIT
+Description: SCOM (Snow Combat) is a simple terminal based game inspired by XCOM.
+
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Plugins: META (0.4), DevFiles (0.4)
+
+Executable "SCOM"
+  Path: src
+  MainIs: scom.ml
+  CompiledObject: best
+  BuildDepends: ANSITerminal, batteries
+
+SourceRepository master
+  Type: git
+  Location: https://github.com/drautb/SCOM
+  Branch: master
+  Browser: https://github.com/drautb/SCOM
+
